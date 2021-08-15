@@ -8,3 +8,8 @@ map.clear(); //emties the map
 
 map.entrySet(); // returns map as a set/array
 map.values(); // returns collection view of values in map
+
+  //Map.Entry inteface enables working with map entry
+Map.Entry<Integer, Integer> entry = null;
+entry.getKey();
+entry.getValue();
