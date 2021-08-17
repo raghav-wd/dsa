@@ -13,3 +13,11 @@ map.values(); // returns collection view of values in map
 Map.Entry<Integer, Integer> entry = null;
 entry.getKey();
 entry.getValue();
+entry.setEntry();
+
+
+//List
+List<String> list = new LinkedList<>();
+list.size();
+list.add("Lebasi");
+list.remove(<index>);
