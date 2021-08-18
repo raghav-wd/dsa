@@ -7,7 +7,7 @@ class Graph {
     
     static void printGraph(ArrayList<ArrayList<Integer>> adj){
         for(int i = 0; i<adj.size(); i++){
-            System.out.println("\nAdjacency list of vertex" + i);
+            System.out.print("Adjacency list of vertex - " + i+"\n");
             for(int j = 0; j<adj.get(i).size(); j++)
                 System.out.print("->"+adj.get(i).get(j));
             System.out.println();
