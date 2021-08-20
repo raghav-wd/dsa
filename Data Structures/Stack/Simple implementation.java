@@ -1,19 +1,19 @@
 class Stack {
     int top;
     int arr[];
+    static int max = 5;
 
     Stack() {
         top = -1;
-        arr = new int[100];
+        arr = new int[5];
     }
 
     void push(int n) {
-        top++;
-        if (top == 100 - 1) {
+        if (top == 5 - 1) {
             System.out.println("Overflow");
             return;
         }
-        arr[top] = n;
+        arr[++top] = n; //##Note
     }
 
     int pop() {
@@ -21,7 +21,7 @@ class Stack {
             System.out.println("Underflow");
             return -1;
         }
-        return arr[top--];
+        return arr[top--]; //##Note
     }
 
     void display() {
@@ -43,6 +43,9 @@ class RightVibe {
         stack.push(1);
         stack.push(2);
         stack.push(3);
+        stack.push(4);
+        stack.push(5);
+        stack.push(6);
         stack.display();
 
         System.out.println("\n");
