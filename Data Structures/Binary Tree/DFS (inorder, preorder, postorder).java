@@ -6,6 +6,16 @@ class Node {
     Node(int val) {
         this.val = val;
     }
+    
+    void preOrder(Node node){
+        if(node == null){
+            return;
+        }
+        
+        System.out.println(node.val);
+        preOrder(node.left);
+        preOrder(node.right);
+    }
   
     void postOrder(Node head) {
         if (head == null) {
@@ -27,7 +37,6 @@ class RightVibe {
         root.left.left = new Node(2);
         root.left.right = new Node(1);
 
-        root.bfs(root);
         root.postOrder(root);
 
         System.out.println("\n");
