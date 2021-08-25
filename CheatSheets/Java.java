@@ -21,3 +21,7 @@ List<String> list = new LinkedList<>();
 list.size();
 list.add("Lebasi");
 list.remove(<index>);
+
+
+//String
+char ch[] = new char[10]; ch = <string>.toCharArray(); //converts string to array
