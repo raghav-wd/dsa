@@ -15,6 +15,13 @@ entry.getKey();
 entry.getValue();
 entry.setEntry();
 
+//Stack
+Stack<Integer> stack = new Stack<Integer>();
+stack.push(1);
+top = stack.pop();
+top = stack.peek();
+stack.search(1); // return -1 if not found or index of the searched element
+
 
 //List
 List<String> list = new LinkedList<>();
