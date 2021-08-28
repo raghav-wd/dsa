@@ -9,6 +9,7 @@ class RightVibe {
             if("[{(".indexOf(ch) >= 0)
                 stack.push(ch);
             else {
+                if(stack.isEmpty()) return false; // Edge case = "()]" returns true if hence this condition handles this case
                 char top = stack.peek();
                 switch (ch) {
                     case ']': {
@@ -35,7 +36,7 @@ class RightVibe {
                 }
             }
         }
-        return true;
+        return stack.isEmpty(); // if stack has some opening brackets which hasn't been popped out so its invalid string
     }
     public static void main(String args[]) {
         System.out.println("=========================================================\n");
