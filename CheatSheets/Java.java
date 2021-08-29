@@ -23,6 +23,14 @@ top = stack.peek();
 stack.search(1); // return -1 if not found or index of the searched element
 
 
+//Queue
+Queue<Integer> queue = new LinkedList<>();
+queue.add(1);
+queue.remove("Lebasi");
+queue.poll(); // removes head
+queue.peek(); // returns top element
+
+
 //List
 List<String> list = new LinkedList<>();
 list.size();
