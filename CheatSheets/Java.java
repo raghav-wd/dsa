@@ -15,6 +15,17 @@ entry.getKey();
 entry.getValue();
 entry.setEntry();
 
+
+//Set
+Set<Integer> set = new Set<Integer>();
+set.add(1);
+set.contains(1); // returns true if 1 is present
+set.iterator();
+set.remove(1); // returns true if removed
+set.clear();
+set.toArray(); // returns equivalent array of the set
+set.size();
+
 //Stack
 Stack<Integer> stack = new Stack<Integer>();
 stack.push(1);
@@ -37,6 +48,12 @@ list.size();
 list.add("Lebasi");
 list.remove(<index>);
 
+
+//Iterator
+Iterator itr = <Collection Object>.iterator();
+itr.hasNext();
+itr.next();
+itr.remove();
 
 //String
 char ch[] = new char[10]; ch = <string>.toCharArray(); //converts string to array
