@@ -1,0 +1,8 @@
+### Bitwise Operator Properties
+
+<number> & <-number> = number // if the number is power of 2
+  Uses- Finding if number is power of 2
+        Finding odd & even (as even has unit's digit 0 while odd has 1)
+
+2(10)<<1 = 4(100) binaries shifts 1 place left as arrow points to left
+2(10)>>1 = 1(1) binaries shifts 1 place right as arrow points to right
