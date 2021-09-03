@@ -6,3 +6,5 @@
 
 2(10)<<1 = 4(100) binaries shifts 1 place left as arrow points to left
 2(10)>>1 = 1(1) binaries shifts 1 place right as arrow points to right
+
+Integer.bitCount(<decimal number>) // counts no of 1s or set bits in binary
