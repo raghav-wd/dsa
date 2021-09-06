@@ -26,6 +26,7 @@ set.clear();
 set.toArray(); // returns equivalent array of the set
 set.size();
 
+
 //Stack
 Stack<Integer> stack = new Stack<Integer>();
 stack.push(1);
@@ -48,6 +49,9 @@ list.size();
 list.add("Lebasi");
 list.remove(<index>);
 
+List<Integer> v = vowels.asList(); // vowels = ['a', 'e', 'i', 'o', 'u'];
+v.contains('a'); // returns true
+
 
 //Iterator
 Iterator itr = <Collection Object>.iterator();
@@ -55,5 +59,9 @@ itr.hasNext();
 itr.next();
 itr.remove();
 
+
 //String
 char ch[] = new char[10]; ch = <string>.toCharArray(); //converts string to array
+
+
+//Array
