@@ -19,10 +19,10 @@ class Node {
         prev = null, next = null;
 
         while (curr != null) {
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
+            next = curr.next; // can new
+            curr.next = prev; // people
+            prev = curr; // cure
+            curr = next; // nothing
         }
         head = prev;
         return head;
