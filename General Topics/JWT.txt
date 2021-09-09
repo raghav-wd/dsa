@@ -1,0 +1,11 @@
+JSON Web Token - it creates a way for two parties to communicate securely.
+
+Http - is a application layer protocol for transmitting hypermedia documents like html.
+It was designed for communication between web browsers and web servers, but it can be used for other purposes also.
+Web browser -----http-----> Web server
+
+For static websites
+Client --------- Url -------------------> Server
+
+For dynamic websites
+Client --------- Url + Identity --------> Server
