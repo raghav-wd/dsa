@@ -13,3 +13,10 @@ SELECT Score, DENSE_Rank() OVER (ORDER BY Score DESC) AS 'Rank' FROM Scores
 UPDATE People
 SET Name = 'Devansh'
 WHERE Name = 'Raghav'
+
+-- Delete
+DELETE FROM People -- Deletes all records while table structure, attributes, and indexes will be intact
+DELETE FROM People WHERE Name = 'Raghav'
+
+-- Check constraint (throws ER_CONSTRAINT_FAILED if inserted value is not in given contraint)
+CREATE TABLE if NOT exists Employee(eid integer, ename varchar(40), rating integer, CHECK(rating<=13) );
