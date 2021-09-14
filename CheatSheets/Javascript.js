@@ -1,6 +1,7 @@
 var // has global scope
 let // has block scope
 const // has block scope and is a read-only/constant value
+// variable without declaration are default var type
 
 const person = {
   name: "Raghav",
