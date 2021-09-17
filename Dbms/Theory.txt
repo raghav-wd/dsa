@@ -3,3 +3,12 @@
   can/cannot be used without GROUP BY Clause
   implements in row/column operations
   cannot/can contain aggregate function
+  
+## Normalization
+1NF - Table shouldn't contain any multivalued attribute
+2NF - 1NF should be fulfilled. There should be no partial dependency
+      Example - R(ABCD), AB ∈ D but B ∈ C, so C is partial dependent on B or partial dependent on CK which is against 2NF
+      Soln - Create two tables => R1(ABD), AB ∈ D || R2(BC), B ∈ C
+3NF - 2NF should be fulfilled. There should be no transitive dependency that is non prime attr. shouldn't find a non prime attr.
+      Example - R(ABCD), AB ∈ C but C ∈ D, so D is transitive dependent on C or non prime attr. defining non prime which is against 3NF
+      Soln - R1(ABC), AB ∈ C || R2(CD), C ∈ D
