@@ -12,3 +12,16 @@
 3NF - 2NF should be fulfilled. There should be no transitive dependency that is non prime attr. shouldn't find a non prime attr.
       Example - R(ABCD), AB ∈ C but C ∈ D, so D is transitive dependent on C or non prime attr. defining non prime which is against 3NF
       Soln - R1(ABC), AB ∈ C || R2(CD), C ∈ D
+
+
+## Relational Database
+It consist of tabls or relations
+
+Degree - number of rows
+Cardinality - number of columns
+Tuples - rows or records
+Field - columns
+  ## Keys
+Primary Key - Attribute which uniquely identifies a row
+Candidate Key - There can be more than 1 attr. which uniquely identifies a row hence they are candidate key means they are candidate to become primary key
+Alternate Key - Ck which is not chosen as Pk
