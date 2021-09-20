@@ -20,3 +20,8 @@ DELETE FROM People WHERE Name = 'Raghav'
 
 -- Check constraint (throws ER_CONSTRAINT_FAILED if inserted value is not in given contraint)
 CREATE TABLE if NOT exists Employee(eid integer, ename varchar(40), rating integer, CHECK(rating<=13) );
+
+
+-- Limit ( Limit <number1>(opt), <number2> => where number1 is index of row from beginning(starts from 0) and number2 is number of rows to be returned from number1 default is 0
+SELECT * from employees ORDER by salary DESC limit 3 -- return first 3 rows
+SELECT * from employees ORDER by salary DESC limit 0, 1 -- gets the first row
