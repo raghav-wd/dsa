@@ -25,3 +25,10 @@ Field - columns
 Primary Key - Attribute which uniquely identifies a row
 Candidate Key - There can be more than 1 attr. which uniquely identifies a row hence they are candidate key means they are candidate to become primary key
 Alternate Key - Ck which is not chosen as Pk
+
+
+## How to design db schema
+1. List down functional requirements
+2. List down possible entities
+3. List down relations between entitities
+4. Create table with entities
