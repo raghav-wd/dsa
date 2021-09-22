@@ -25,3 +25,7 @@ CREATE TABLE if NOT exists Employee(eid integer, ename varchar(40), rating integ
 -- Limit ( Limit <number1>(opt), <number2> => where number1 is index of row from beginning(starts from 0) and number2 is number of rows to be returned from number1 default is 0
 SELECT * from employees ORDER by salary DESC limit 3 -- return first 3 rows
 SELECT * from employees ORDER by salary DESC limit 0, 1 -- gets the first row
+
+-- Window Functions ( Adding OVER, on aggregate function designates it as a window function) 
+  -- SELECT coulmn_name1, window_function(cloumn_name2), OVER([PARTITION BY column_name1] [ORDER BY column_name3]) AS new_column FROM table_name;
+SELECT sum(salary) over() from employees -- every row has sum
