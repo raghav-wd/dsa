@@ -21,6 +21,9 @@ DELETE FROM People WHERE Name = 'Raghav'
 -- Check constraint (throws ER_CONSTRAINT_FAILED if inserted value is not in given contraint)
 CREATE TABLE if NOT exists Employee(eid integer, ename varchar(40), rating integer, CHECK(rating<=13) );
 
+-- IN The IN operator allows you to specify multiple values in a WHERE clause also a shorthand for multiple OR conditions
+SELECT * FROM Customers -- selects all customers that are from the same countries as the suppliers
+WHERE Country IN (SELECT Country FROM Suppliers);
 
 -- Limit ( Limit <number1>(opt), <number2> => where number1 is index of row from beginning(starts from 0) and number2 is number of rows to be returned from number1 default is 0
 SELECT * from employees ORDER by salary DESC limit 3 -- return first 3 rows
