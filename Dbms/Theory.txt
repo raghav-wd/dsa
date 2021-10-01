@@ -32,3 +32,11 @@ Alternate Key - Ck which is not chosen as Pk
 2. List down possible entities
 3. List down relations between entitities
 4. Create table with entities
+
+## ACID
+A - Atomicty => Every transaction should behave as an one entity that means a transaction should either be fully executed or be aborted totally.
+C - Consistency => A transaction should always maintain a consistent state whether executed or aborted.
+I - Isolation => Parallelly running transaction should not interupt each other process.
+D - Durability => Changes done by transaction should not be temporary.
+
+Transactions => are bunch of queries to be executed all together.
