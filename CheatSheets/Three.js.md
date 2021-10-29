@@ -27,6 +27,18 @@ Roughness Map - Adds shines
 
 EnvironmentMap - uses 6 images that is px, nx, py, ny, pz and nz.
 
+## Shaders
+Attributes - Different property for all the vertices.
+Uniforms - Same property for all the vertices.
+
+Fragment is like pixel but for shaders.
+
+It requires a lot of data.
+
+There are two types of shaders, vertex and fragment.
+
+Why use? Are simple and performant, we can wave a plane and add custom-post processing.
+
 ## Notes
 
 - Avoid initializing same multiple material and texture.
