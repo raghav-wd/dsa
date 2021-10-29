@@ -12,6 +12,8 @@ Dolly - is zooming in and out.
 
 Gizmo - it is axis globe on top right.
 
+Renderers - Eevee (realistic & performant), Workbench, Cycles(very realistic & less performant)
+
 ## Shortcuts
 
 Placing object Y, X, Z(w ctrl its opp.) - 1, 3, 7 Numpad
@@ -27,3 +29,11 @@ Rectangle selection on object - B
 Open object refactor menu - F9
 
 Mode select  - Ctrl + Tab
+
+Render - F12
+
+Search - F3
+
+Edit mode - Tab
+
+Loop cut - Ctrl + R
