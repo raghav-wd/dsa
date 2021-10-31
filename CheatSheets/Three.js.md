@@ -30,6 +30,7 @@ EnvironmentMap - uses 6 images that is px, nx, py, ny, pz and nz.
 ## Shaders
 Attributes - Different property for all the vertices.
 Uniforms - Same property for all the vertices.
+Varying - contain data shared from a vertex shader to a fragment shader
 
 Fragment is like pixel but for shaders.
 
@@ -62,3 +63,5 @@ Z-fighting - also called stitching or planefighting, is a phenomenon in 3D rende
 Drop Shadow - shadow silhoutte of object at the floor.
 
 Adaptive Blending - drawing pixels on top of other pixel making pixels brighters.
+
+Perlin noise - can recreate shapes like cloud, water, fire, terrain elevation etc or animate grass, snow.
