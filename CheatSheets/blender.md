@@ -37,3 +37,12 @@ Search - F3
 Edit mode - Tab
 
 Loop cut - Ctrl + R
+
+Clear Parent for a child - Alt + P > Clear and Keep Transformation.
+
+### Adding animation clip to a model
+
+1. Import your rigged model.
+2. Import animation clip (fbx format).
+3. Delete the animation clip from sidebar on right.
+4. Select NLP>Select the model name>Select 'Add'>Add the action you deleted.
