@@ -1,0 +1,214 @@
+Array
+Kadane's Algorithm
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/ 
+N/2, N/3 greatest Number
+https://leetcode.com/problems/majority-element/ 
+https://leetcode.com/problems/majority-element-ii/ 
+https://www.geeksforgeeks.org/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/ 
+Merge overlapping intervals
+https://leetcode.com/problems/merge-intervals/ 
+Rotate matrix
+https://leetcode.com/problems/rotate-image/ 
+Buy / Sell stocks - I, II, III: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+String
+Pattern matching algorithms (KMP + Rabin Karp)
+https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/ 
+https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/ 
+Using StringBuilder class -> Add, Multiply Strings
+https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/
+https://www.geeksforgeeks.org/stringbuilder-append-method-in-java-with-examples/ 
+
+String compression algorithm
+https://leetcode.com/problems/string-compression/ 
+
+
+LinkedList
+Implementation of Linkedlist
+https://www.geeksforgeeks.org/implementing-a-linked-list-in-java-using-class/ 
+https://leetcode.com/problems/design-linked-list/ 
+Detect cycle in a linkedlist - Floyd Algo
+https://leetcode.com/problems/linked-list-cycle/ 
+Reverse a linked list + reverse in groups
+https://leetcode.com/problems/reverse-linked-list/ 
+https://leetcode.com/problems/reverse-nodes-in-k-group/ 
+Stack
+Implementation of Stack
+https://www.geeksforgeeks.org/stack-data-structure-introduction-program/
+https://www.geeksforgeeks.org/stack-class-in-java/ 
+Balance parenthesis
+https://leetcode.com/problems/valid-parentheses/
+Trapping rain water
+https://leetcode.com/problems/trapping-rain-water/ 
+Implement min stack
+https://leetcode.com/problems/min-stack/ 
+
+
+
+
+
+
+Queue
+Implementation of Queue + Deque
+https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/
+https://www.geeksforgeeks.org/queue-interface-java/ 
+https://www.geeksforgeeks.org/implementation-deque-using-circular-array/
+https://www.geeksforgeeks.org/deque-interface-java-example/
+
+Sliding window maximum
+https://leetcode.com/problems/sliding-window-maximum/ 
+Implement BFS 
+https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/ 
+Implement Level order in Binary tree
+https://leetcode.com/problems/binary-tree-level-order-traversal/ 
+
+PriorityQueue or Heap
+Implementation of Heap Data structure
+https://www.geeksforgeeks.org/heap-data-structure/ 
+Connect n ropes with min cost: https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/
+Median of running stream: https://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/
+LRU and LFU cache
+https://leetcode.com/problems/lru-cache/ 
+https://leetcode.com/problems/lfu-cache/ 
+
+
+
+Set & Map
+Internal working of HashMap
+https://www.geeksforgeeks.org/internal-working-of-hashmap-java/ 
+4-sum
+https://leetcode.com/problems/4sum/ 
+Longest substring without repeat: https://www.interviewbit.com/problems/longest-substring-without-repeat/
+Binary Tree
+Implementation: insert, delete, traverse: https://youtu.be/QhIM-G7FAow
+Print top view, left view, right view, bottom view, level order, zig-zag traversal of Binary tree
+https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/ 
+https://www.geeksforgeeks.org/print-left-view-binary-tree/   
+https://leetcode.com/problems/binary-tree-right-side-view/ 
+https://www.geeksforgeeks.org/bottom-view-binary-tree/ 
+https://www.geeksforgeeks.org/level-order-tree-traversal/
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ 
+Invert a binary tree: https://leetcode.com/problems/invert-binary-tree/
+Lowest common ancestor
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ 
+
+Binary Search Tree
+Implementation
+https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/ 
+
+Check if a tree is BST or not
+https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/ 
+AVL tree and rotation
+https://www.geeksforgeeks.org/avl-tree-set-1-insertion/ 
+https://www.geeksforgeeks.org/avl-tree-set-2-deletion/ 
+
+Graph
+Implementation, BFS and DFS traversals
+https://www.geeksforgeeks.org/graph-and-its-representations/ 
+https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/ 
+https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/ 
+Topological sorting
+https://www.geeksforgeeks.org/topological-sorting/ 
+Bellman ford Algorithm
+https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/ 
+Dijkstra's Algorithm
+https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/ 
+Prim's Algorithm
+https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/ 
+Kruskal's Algorithm
+https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/ 
+Unique Islands Problem: https://www.geeksforgeeks.org/find-the-number-of-distinct-islands-in-a-2d-matrix/
+
+Trie
+Implementation
+https://www.geeksforgeeks.org/trie-insert-and-search/ 
+Segment Trees : More important in CP
+Implementation
+https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/
+
+
+Algorithms:
+
+Two pointers Algorithm
+3-Sum
+https://leetcode.com/problems/3sum/ 
+Container with most water
+https://leetcode.com/problems/container-with-most-water/ 
+Sort the array containing only 0, 1 and 2
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/ 
+Math
+Fast Power: https://www.youtube.com/watch?v=dyrRM8dTEus
+Euclid GCD: https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/ 
+Sieve of Eratosthenes:
+https://www.geeksforgeeks.org/sieve-of-eratosthenes/ 
+Recursion + Backtracking
+Sudoku solver
+https://leetcode.com/problems/sudoku-solver/ 
+N-Queens Problem
+https://leetcode.com/problems/n-queens/ 
+Permutation and Combinations (Bruteforce)
+https://www.geeksforgeeks.org/permutation-and-combination/ 
+Bits Manipulation + Mathematics
+Find one  non-repeating number, find two
+https://www.geeksforgeeks.org/non-repeating-element/ 
+https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/ 
+Count 1 bits in a number
+https://leetcode.com/problems/number-of-1-bits/ 
+Divide & Conquer
+Merge Sort
+https://www.geeksforgeeks.org/merge-sort/ 
+Median of two sorted arrays
+https://leetcode.com/problems/median-of-two-sorted-arrays/ 
+
+Binary Searching
+Find upper and lower bound using Binary search
+https://www.geeksforgeeks.org/find-first-and-last-positions-of-an-element-in-a-sorted-array/ 
+Allocate books: https://www.interviewbit.com/problems/allocate-books/
+Greedy Programming
+Candy distribution: https://www.interviewbit.com/problems/distribute-candy/
+Gas station: https://www.interviewbit.com/problems/gas-station/
+Fractional Knapsack
+https://www.geeksforgeeks.org/fractional-knapsack-problem/ 
+Dynamic Programming
+0/1 Knapsack: https://www.youtube.com/watch?v=y6kpGJBI7t0
+Longest increasing subsequence
+https://leetcode.com/problems/longest-increasing-subsequence/ 
+Matrix chain multiplication
+https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/ 
+Coin change problem
+https://leetcode.com/problems/coin-change/ 
+
+
+Operating System:
+Basics of Threads
+Process scheduling algorithms
+Critical section Problem
+Deadlock
+Memory management
+Paging
+Segmentation
+Page replacement algorithms
+Disk scheduling algorithms
+
+
+DBMS:
+Types of Keys: Candidate, Super, Foriengn keys
+Normal Forms
+Joins
+SQL queries
+ACID properties
+Indexing: B trees, B+ trees concepts
+
+System design:
+
+Low level design
+Class, ER diagrams
+OOPS concepts
+Design Elevator system, Parking Lot, MakeMyTrip System
+High level design
+Scaling
+Distributed systems
+Microservice and Monolithic architecture
+Load balancing
+Message queue
+Design Whatsapp, Tinder, Uber system
+
