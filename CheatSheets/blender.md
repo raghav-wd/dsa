@@ -14,6 +14,8 @@ Gizmo - it is axis globe on top right.
 
 Renderers - Eevee (realistic & performant), Workbench, Cycles(very realistic & less performant)
 
+Textures - adds fine details to the model
+
 ## Shortcuts
 
 Placing object Y, X, Z(w ctrl its opp.) - 1, 3, 7 Numpad
